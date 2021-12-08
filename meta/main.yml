@@ -1,4 +1,5 @@
 galaxy_info:
+  role_name: set-icons
   author: Noran Raskin
   description: Change custom app icons on macOS
 
