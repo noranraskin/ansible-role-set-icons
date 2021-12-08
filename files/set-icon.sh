@@ -1,4 +1,7 @@
 #!/usr/bin/env osascript
+#
+# @author pingortle
+# @source https://github.com/pingortle/dotfiles/blob/master/bash/.bin/set-finder-icon
 
 use framework "AppKit"
 

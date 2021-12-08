@@ -42,3 +42,8 @@ Author Information
 ------------------
 
 This role was created in 2021 by Noran Raskin.
+
+Thanks
+------
+
+Thank you (@pingortle)[https://github.com/pingortle] for the (script)[https://github.com/pingortle/dotfiles/blob/master/bash/.bin/set-finder-icon] to update icons.
