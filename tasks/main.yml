@@ -1,0 +1,13 @@
+---
+- name: Download icons
+  get_url:
+    url: "{{ item.url }}"
+    dest: "/tmp/{{ item.name }}.png"
+  loop: "{{ icons }}"
+
+- name: Change app icons
+  script: set-icon.sh "/tmp/{{ item.name }}.png" "/Applications/{{ item.name }}"
+  loop: "{{ icons }}"
+
+- name: Refresh Dock
+  command: killall Dock

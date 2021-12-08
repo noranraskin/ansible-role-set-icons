@@ -1,0 +1,8 @@
+---
+icons: []
+# use this format
+# supports PNG
+# - { name: "YourApp.app", url: "https://download.url/new-icon.png"}
+# example -- restore firefox to it's old glory
+# icons:
+# - { name: Firefox.app, url: "https://upload.wikimedia.org/wikipedia/commons/thumb/2/28/Firefox_logo%2C_2017.svg/1280px-Firefox_logo%2C_2017.svg.png"}
